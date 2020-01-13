@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Text styles -->
+        <item name="strongTextColor">@color/colorBlack</item>
+        <item name="secondaryTextColor">@color/colorGrey</item>
+        <item name="redTextColor">@color/colorRed</item>
+
+        <item name="android:statusBarColor">@color/colorStatusBar</item>
+    </style>
+
+    <style name="RevTestTheme" parent="BaseTheme" />
+
+    <style name="RevTestTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/RevTestTabStyle</item>
+    </style>
+
+    <style name="RevTestTabStyle" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="RevTestEditText">
+        <item name="android:paddingBottom">-2dp</item>
+        <item name="android:paddingTop">-2dp</item>
+        <item name="android:textColorHint">?attr/secondaryTextColor</item>
+    </style>
+
+    <style name="RevTestEditText.Strong">
+        <item name="android:textColor">?attr/strongTextColor</item>
+    </style>
+
+    <style name="RevTestTextView" />
+
+    <style name="RevTestTextViewBold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RevTestTextView.Secondary">
+        <item name="android:textColor">?attr/secondaryTextColor</item>
+    </style>
+
+    <style name="RevTestTextView.Red">
+        <item name="android:textColor">?attr/redTextColor</item>
+    </style>
+
+    <style name="RevTestTextView.Strong">
+        <item name="android:textColor">?attr/strongTextColor</item>
+    </style>
+
+    <style name="RevTestTextViewBold.Strong">
+        <item name="android:textColor">?attr/strongTextColor</item>
+    </style>
+
+    <style name="RevTestTextView.Secondary.Large">
+        <item name="android:textSize">@dimen/font_size_large</item>
+    </style>
+    <style name="RevTestTextView.Large">
+        <item name="android:textSize">@dimen/font_size_large</item>
+    </style>
+    <style name="RevTestTextViewBold.Large">
+        <item name="android:textSize">@dimen/font_size_large</item>
+    </style>
+
+    <style name="RevTestTextView.Large.Strong">
+        <item name="android:textColor">?attr/strongTextColor</item>
+    </style>
+    <style name="RevTestTextViewBold.Large.Strong">
+        <item name="android:textColor">?attr/strongTextColor</item>
+    </style>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RevTestStyle">
+
+        <attr name="colorWhite" format="color" />
+
+        <attr name="strongTextColor" format="color" />
+        <attr name="secondaryTextColor" format="color" />
+        <attr name="redTextColor" format="color" />
+
+    </declare-styleable>
+</resources>
